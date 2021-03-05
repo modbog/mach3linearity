@@ -40,6 +40,8 @@ observed.csv:
 
 You can use any interval you like, 1000 was plenty accurate for my machine. The observations after "Linearity.dat" was copied to macros folder in Mach3 were very close to the requested values.
 
+**NB:** The last entry in your csv file should be the max observed spindle speed e.g. `24000,24000` or in the example above `21555,21555` **Without this entry you may see an IndexError.**
+
 calibrated.csv
 
 ```
